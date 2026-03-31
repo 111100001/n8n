@@ -15,7 +15,7 @@ import type {
  * ...
  * reservation.release();
  */
-export class ConcurrencyCapacityReservation {
+export class  ConcurrencyCapacityReservation {
 	private acquiredReservation: CapacityTarget | undefined = undefined;
 
 	constructor(private readonly concurrencyControlService: ConcurrencyControlService) {}
